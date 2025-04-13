@@ -15,7 +15,7 @@ public class SimplePlaywrightTest {
             // Create a new page
             Page page = browser.newPage();
 
-            // Navigate to website
+            // Navigate to website url
             System.out.println("Navigating to website...");
             page.navigate("https://www.google.com/");
 
